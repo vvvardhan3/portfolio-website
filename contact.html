@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .form-container label,
+        .form-container input,
+        .form-container textarea,
+        .form-container button {
+            margin-bottom: 5px;
+        }
+
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
     <title>Contact Me</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -18,28 +39,33 @@
             </ul>
         </nav>
     </header>
-    
+
     <section id="content">
-        <h2>Contact Me</h2>
+        <h2>Contact Me:</h2>
+        <div class="form-container">
+            <form action="#" method="post">
+                <div class="form-row">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="2" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <br>
         <p>You can reach me at vankayalapativ4@gmail.com</p>
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea><br>
-            
-            <button type="submit">Submit</button>
-        </form>
     </section>
-    
+
     <footer>
         <p>&copy; 2023 Your Name. All rights reserved.</p>
     </footer>
-    
+
     <script src="script.js"></script>
 </body>
+
 </html>

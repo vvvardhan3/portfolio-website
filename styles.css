@@ -13,9 +13,12 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color:rgb(174, 146, 119);
     color: #fff;
     padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul {
@@ -25,6 +28,18 @@ nav ul {
 
 nav li {
     margin-right: 20px;
+}
+
+nav ul li a{
+    border: 1px solid rgb(2, 2, 11);
+    padding: 5px 10px;
+    color: rgb(3, 3, 9);
+    border-radius: 5px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(5, 5, 15);
+    color: white;
 }
 
 nav a {
@@ -50,13 +65,21 @@ footer {
     padding: 1rem;
 }
 
-.resume {
-    border: 1px solid #ddd;
-    padding: 1rem;
-    margin-bottom: 20px;
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.background {
-    width: 100%;
-    height: auto;
-  }
+.form-container label,
+.form-container input,
+.form-container textarea,
+.form-container button {
+    margin-bottom: 5px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
