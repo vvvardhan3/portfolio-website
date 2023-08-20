@@ -5,24 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <style>
+
+
+    </style>
     <title>Contact Me</title>
 </head>
 
 <body>
+
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="about.html">About Me</a></li>
-                <li><a href="resume.html">Resume</a></li>
+                <li><a href="resume.html">Resume/CV</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+
+
     <section id="content">
-        <h2>Contact Me:</h2>
+        <h2>Contact Me:</h2> <br>
         <div class="form-container">
             <form action="#" method="post">
                 <div class="form-row">
@@ -33,13 +40,17 @@
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
                 </div>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="2" required></textarea>
-                <button type="submit">Submit</button>
+                <div class="form-row">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-row">
+                    <button type="submit">Submit</button>
+                </div>
             </form>
         </div>
         <br>
-        <p>You can reach me at vankayalapativ4@gmail.com</p>
+        <p>You can reach me at <a href="mailto:vankayalapativ4@gmail.com">Email</a>
     </section>
 
     <footer>
@@ -47,6 +58,7 @@
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 
 </html>
