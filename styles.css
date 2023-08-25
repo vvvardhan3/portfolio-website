@@ -105,4 +105,58 @@ button {
 }
 
 
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: left;
+}
 
+.about-image {
+    max-width: 300px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.about-content {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Table styles */
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.education-table th,
+.education-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.education-table th {
+    background-color: #f2f2f2;
+    width: 20%;
+}
+
+.colorful-text {
+    background: linear-gradient(45deg, #FFC300, #FF5733);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.colorful-subtitle {
+    background: linear-gradient(45deg, #F700FF, #FF0080);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.colorful-paragraph {
+    background: linear-gradient(45deg, #42E695, #3BB2B8);
+    -webkit-background-clip: text;
+    color: transparent;
+}
