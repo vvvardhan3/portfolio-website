@@ -73,25 +73,6 @@ a {
 }
 
 /* Buttons */
-.btn {
-  position: relative;
-  font-size: 18px;
-  color: #fff;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.btn::before{
-  content: '';
-  position: absolute;
-  top: 100px;
-  left: 0px;
-  width:  0px;
-  height: 2px;
-  background: #fff;
-}
-
-
 
 /* Titles */
 .section-title {
@@ -136,7 +117,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  background: #9d9fa1;
+  background:#fff;
   justify-content: space-between;
   padding: 20px 100px;
   align-content: center;
@@ -144,11 +125,21 @@ a {
 }
 
 .nav a{
-  font-size: 16px;
-  color: #fff;
+  position: relative;
+  font-size: 18px;
+  color: #3e3f40;
   text-decoration: none;
-  margin-left: 0px;
   font-weight: 500;
+}
+.nav a::before{
+  content: '';
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  width:  0px;
+  height: 2px;
+  background: #3e3f40;
+  transition: 0.3s;
 }
 
 nav ul {
@@ -157,29 +148,6 @@ nav ul {
   gap: 2rem;
 }
 
-/* Logo */
-.logo {
-  font-size: 32px;
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  
-}
-
-.logo a {
-  font-size: 18px;
-  color: white;
-}
-
-/* Navigation Menu */
-nav ul li {
-  display: flex;
-  align-items: center;
-}
-
-nav ul li a {
-  color: var(--primaryTextColor);
-}
 
 /* Burger - Save for later on video */
 .burger div {
