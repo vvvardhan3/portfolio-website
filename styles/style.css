@@ -193,7 +193,9 @@ nav ul {
 }
 
 .hero-right img {
-  width: 90%;
+  width: 300%; /* Adjust this value as needed, or use a specific pixel value like '500px' */
+  max-width: 1500px; /* Optional: you can set a maximum width to ensure the image does not become too large on wider screens */
+  height: auto; /* This ensures the image height adjusts according to the width while maintaining aspect ratio */
 }
 
 .hero-right {
