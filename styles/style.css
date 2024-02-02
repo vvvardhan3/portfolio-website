@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 :root {
-  --primaryTextColor: #232e35; /* Untuk title atau judul */
-  --secondaryTextColor: #656d72; /* Untuk text biasa seperti paragraph contohnya */
+  --primaryTextColor: #232e35; 
+  --secondaryTextColor: #656d72; 
 
   --borderColor: #f1f1f1;
-  --lineColor: #d9d9d9; /* untuk line di pre-title */
+  --lineColor: #d9d9d9; 
 
   --primaryBackgroundColor: #fff;
   --secondaryBackgroundColor: #fbfbfb;
@@ -62,13 +62,13 @@ a {
 /* End Preparation */
 
 .main-container {
-  width: 1200px;
+  width: 1300px;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1200px) {
   .main-container {
-    width: 90%;
+    width: 50%;
   }
 }
 
@@ -117,12 +117,13 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  background:#fff;
-  justify-content: space-between;
-  padding: 20px 100px;
-  align-content: center;
+  background: #fff;
+  justify-content: center; /* Center the navigation links */
+  padding: 20px 0; /* Adjust padding as needed */
+  align-items: center;
   z-index: 100;
 }
+
 
 .nav a{
   position: relative;
@@ -148,6 +149,9 @@ nav ul {
   gap: 2rem;
 }
 
+.nav btn{
+  text-align: left;
+}
 
 /* Burger - Save for later on video */
 .burger div {
@@ -177,7 +181,7 @@ nav ul {
 }
 
 .hero-name {
-  font-size: 3rem;
+  font-size:5rem;
   font-weight: 700;
   margin: 0.5rem 0 1rem;
 }
@@ -246,6 +250,10 @@ nav ul {
   fill: var(--primaryIconColor);
 }
 
+.Courses {
+  text-align: left;
+}
+
 /* Portfolios */
 #portfolios {
   padding: var(--sectionPadding);
@@ -253,7 +261,7 @@ nav ul {
 
 .portfolio {
   border-radius: var(--itemBorderRadius);
-  overflow: hidden; /* supaya gambar yang diatas itu dia ngikut border radiusnya, karena yang dikasih border radius disini adalah div portfolio ini */
+  overflow: hidden; 
   border: 1px solid var(--borderColor);
 }
 
@@ -314,7 +322,7 @@ nav ul {
 /* Skills and Education */
 #skills {
   padding: var(--sectionPadding);
-  background: var(--secondaryBackgroundColor);
+  background: var(--primaryBackgroundColor);
 }
 
 .skills-grid {
@@ -364,6 +372,7 @@ nav ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 1.5rem;
+  color: var(--primaryTextColor);
 }
 
 .skills-right ul {
@@ -452,7 +461,7 @@ nav ul {
 
 /* Footer Section */
 footer {
-  padding: 4rem 0;
+  padding: 0px 0px;
   background: var(--secondaryBackgroundColor);
   text-align: center;
 }
@@ -473,7 +482,6 @@ footer {
   fill: #000;
 }
 
-
 .toggle-btn{
   background: #000000;
   color: #ffff;
@@ -491,13 +499,31 @@ footer {
   margin-left: 10px;
 }
 .btn-r{
-  padding: 1rem 1.5rem;
-  background: white;
+  padding: 20px 50px;
+  font-size: 1rem;
+  background: #e2e9f0;
   border: 1.5px solid var(--borderColor);
-  cursor: pointer;
   transition: 0.2s ease-in-out;
   border-radius: 16px;
-  
+  cursor: pointer;
 }
+
+.btn-r:hover {
+  background-color: #9f97f5;
+  /* Optional: Add a transition for a smooth color change effect */
+  transition: background-color 0.1s ease;
+}
+
+
+.Title-job{
+  color: #3e3f40;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+
+
+
+
+
 
 
