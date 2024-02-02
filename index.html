@@ -38,14 +38,14 @@
           <h3 class="pre-title">My name is</h3>
           <h1 class="hero-name">Vishnu Vardhan <span>Vankayalapati</span></h1>
           <p class="Title-job">
-            Full Stack Developer, Currently looking for roles in Java, ReactJs and DevOps Space!
+            Full Stack Developer, Currently looking for roles in Java, ReactJs Space!
           </p>
           <a href="./resume.pdf" target="_blank">
             <button class="btn-r">Resume</button>
           </a>
 
           <a href="#contact">
-            <button class="btn-r"> Get in touch</button>
+            <button class="btn-r">Get in touch</button>
           </a>
         </div>
 
@@ -57,7 +57,7 @@
   </header>
   <!-- End Header -->
 
-  <!-- Services -->
+  <!-- Education -->
   <section id="education">
     <div class="services main-container">
       <h3 class="pre-title">Education</h3>
@@ -88,14 +88,12 @@
       </div>
     </div>
   </section>
-  <!-- End Services -->
+  <!-- Education -->
 
   <!-- Portfolios -->
   <section id="portfolios">
     <div class="portfolios main-container">
       <h3 class="pre-title">My Work</h3>
-      <!-- <h1 class="section-title">Featured Portfolios</h1> -->
-
       <div class="grid-3">
         <!-- Portfolio 1 -->
         <div class="portfolio">
@@ -140,12 +138,12 @@
             </div>
             <div class="portfolio-tags">
               <div>React Js</div>
-              <div>HTML</div>
+              <div>Tailwind CSS</div>
+              <div>Parcel</div>
             </div>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
-              eligendi cupiditate asperiores nam, beatae repudiandae expedita
-              fugit, quos dicta ut unde rerum vero repellat vitae.
+              Developed a high-performance React App integrating technologies like Redux and Tailwind, featuring a custom <Shimmer/> component and Swiggy's API, 
+              with a focus on optimizing load times through lazy loading and robust state management for swift UI updates, supported by Jest tests.
             </p>
           </div>
         </div>
@@ -153,11 +151,11 @@
         <!-- Portfolio 3 -->
         <div class="portfolio">
           <div class="portfolio-cover">
-            <img src="./images/portfolios/portfolio-3.jpeg" alt="Portfolio 1" />
+            <img src="./images/portfolios/PowerBi.webp" alt="Portfolio 1" />
           </div>
           <div class="portfolio-info">
             <div class="portfolio-title">
-              <h4>Dashboard Admin</h4>
+              <h4>PowerBI Dashboard</h4>
               <a href="/" class="portfolio-link">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                   <path
@@ -166,13 +164,11 @@
               </a>
             </div>
             <div class="portfolio-tags">
-              <div>React</div>
-              <div>Materialize</div>
+              <div>PowerBI</div>
             </div>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
-              eligendi cupiditate asperiores nam, beatae repudiandae expedita
-              fugit, quos dicta ut unde rerum vero repellat vitae.
+              Designed a Power BI dashboard for multidimensional revenue analysis from hotel bookings and other metrics, 
+              enabling data-driven decision-making for revenue enhancement.
             </p>
           </div>
         </div>
@@ -181,9 +177,7 @@
   </section>
   <!-- End Portfolios -->
 
-  <!-- Skills & Education -->
-
-
+  <!-- Skills -->
   <section id="skills">
       <h3 class="pre-title">My Skills</h3>
       <div class="skills-container">
@@ -285,30 +279,31 @@
       </section>
       </div>
   </section>
-  <!-- End Skills & Education  -->
+  <!-- End Skills -->
 
   <!-- Contact -->
   <section id="contact">
-    <div class="contact main-container">
+    <h3 class="pre-title"><span>get in touch,</span>  Contact Me</h3>
+        <div class="contact-left">
+          <form action="https://formspree.io/f/mgegobea" method="POST" class="contact-form">
+            <div>
+              
+              <input type="text" placeholder="Name" name="name" />
+            </div>
+            <div>
+              <input type="email" placeholder="Email" name="email" />
+            </div>
+            <div>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+            <div>
+              <button class="btn-submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+   
 
-      <div class="contact-left">
-        <form action="https://formspree.io/f/mgegobea" method="POST" class="contact-form">
-          <div>
-            <input type="text" placeholder="Name" name="name" />
-          </div>
-          <div>
-            <input type="email" placeholder="Email" name="email" />
-          </div>
-          <div>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-          </div>
-          <div>
-            <button class="btn-submit">Send Message</button>
-          </div>
-        </form>
-      </div>
-
-      <div class="contact-right">
+      <!-- <div class="contact-right">
         <div class="contact-item">
           
           <div class="contact-item-icon">
@@ -334,8 +329,8 @@
             <h4>Phone</h4>
             <p>+1 919-638-8879</p>
           </div>
-        </div>
-
+        </div> -->
+<!-- 
         <div class="contact-item">
           <div class="contact-item-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
@@ -348,7 +343,7 @@
             <p>vardhanv1999@gmail.com</p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
   <!-- End Contact -->
@@ -384,12 +379,18 @@
         </svg>
       </a>
 
+      <a href="mailto:vankayalapativjobs@gmail.com">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+          <path d="M20,4H4C2.897,4,2,4.897,2,6v12c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V6C22,4.897,21.103,4,20,4z M20,18H4V8l8,5l8-5 V18z M4,6h16l-8,5L4,6z"></path>
+        </svg>
+      </a>
+      
+
       <a href="https://leetcode.com/vardhanv1999/">
-        <svg xmlns="http://www.w3.org/2000/svg"  width="20" height="20" viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg"  width="20" height="20" viewBox="0 0 24 24" >
           <path d="M22,14.355c0-0.742-0.564-1.346-1.26-1.346H10.676c-0.696,0-1.26,0.604-1.26,1.346s0.563,1.346,1.26,1.346H20.74C21.436,15.702,22,15.098,22,14.355z"></path>
           <path d="M3.482,18.187l4.313,4.361C8.768,23.527,10.113,24,11.598,24c1.485,0,2.83-0.512,3.805-1.494l2.588-2.637c0.51-0.514,0.492-1.365-0.039-1.9c-0.531-0.535-1.375-0.553-1.884-0.039l-2.676,2.607c-0.462,0.467-1.102,0.662-1.809,0.662s-1.346-0.195-1.81-0.662l-4.298-4.363c-0.463-0.467-0.696-1.15-0.696-1.863c0-0.713,0.233-1.357,0.696-1.824l4.285-4.38c0.463-0.467,1.116-0.645,1.822-0.645s1.346,0.195,1.809,0.662l2.676,2.606c0.51,0.515,1.354,0.497,1.885-0.038c0.531-0.536,0.549-1.387,0.039-1.901l-2.588-2.636c-0.649-0.646-1.471-1.116-2.392-1.33l-0.034-0.007l2.447-2.503c0.512-0.514,0.494-1.366-0.037-1.901c-0.531-0.535-1.376-0.552-1.887-0.038L3.482,10.476C2.509,11.458,2,12.813,2,14.311C2,15.809,2.509,17.207,3.482,18.187z"></path></svg>
       </a>
-
       </a>
     </div>
     <p>&#169; 2024 - Made by VishnuVardhan</p>

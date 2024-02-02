@@ -110,6 +110,7 @@ a {
   /* grid-template-columns: 1fr 1fr 1fr; use this first, use code below when its time for explaining responsive design part */
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 3rem;
+  padding-top: 10px;
 }
 
 /* --- Logo and Navigation Menu --- */
@@ -224,11 +225,6 @@ nav ul {
   border-radius: var(--itemBorderRadius);
 }
 
-.education h4 {
-  margin: 1.5rem 0;
-  font-weight: 500;
-  font-size: 1.05rem;
-}
 
 .education-icon {
   background: var(--thirdBackgroundColor);
@@ -329,8 +325,6 @@ nav ul {
   background: var(--primaryBackgroundColor);
 }
 
-
-
 .education {
   display: flex;
   gap: 1rem;
@@ -343,7 +337,7 @@ nav ul {
 .education .line div {
   width: 2px;
   height: 100%;
-  background: var(--borderColor);
+  border: 1px solid var(--borderColor);
   position: relative;
 }
 
@@ -386,13 +380,17 @@ nav ul {
 
 .contact {
   display: grid;
-  /* grid-template-columns: 1fr 1fr; */
+  
+  grid-template-columns: 1fr 1fr;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 3rem;
 }
 
 .contact-form div {
   margin-bottom: 1.4rem;
+  padding-top: 20px;
+  width : 1000px;
+  
 }
 
 .contact-form input,
@@ -404,11 +402,13 @@ nav ul {
   border: 1px solid var(--borderColor);
   border-radius: 3px;
   resize: none;
+  
 }
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
   color: #9d9fa1;
+  
 }
 
 .contact-form input:focus,
@@ -416,6 +416,8 @@ nav ul {
   outline: none;
   border: 1px solid #7d7d7d;
 }
+
+
 
 .btn-submit {
   width: 100%;
@@ -437,6 +439,7 @@ nav ul {
   display: flex;
   gap: 1.5rem;
   margin-bottom: 2.5rem;
+  
 }
 
 .contact-item-icon {
@@ -448,10 +451,18 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+}
+.contact-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
 }
 
 .contact-item-icon svg {
   fill: var(--primaryIconColor);
+  
 }
 
 .contact-item-detail h4 {
@@ -460,13 +471,13 @@ nav ul {
 
 /* Footer Section */
 footer {
-  padding: 0px 0px;
-  background: var(--secondaryBackgroundColor);
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fff; 
   text-align: center;
-}
-
-.footer-icons {
-  margin-bottom: 1rem;
+  padding: 5px 0; 
 }
 
 .footer-icons a {
