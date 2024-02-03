@@ -45,7 +45,6 @@ p {
   line-height: 1.9rem; /*30.4 px */
 }
 
-
 p,
 span,
 label,
@@ -418,7 +417,6 @@ nav ul {
 }
 
 
-
 .btn-submit {
   width: 100%;
   padding: 0.75rem 1.3rem;
@@ -607,14 +605,6 @@ footer {
     width: 100%; 
   }
 }
-
-
-
-
-
-
-
-
 
 
 
