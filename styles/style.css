@@ -686,8 +686,17 @@ footer {
   }
 
   .skills-container, .certifications-container {
-    flex-direction: column; /* Stack skills and certifications vertically */
+    flex-direction: row; /* Stack skills and certifications vertically */
   }
+  .skill {
+    height: 20;
+    width : 40;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem; /* Adjust padding for education, portfolio, and skill items */
+  }
+
+
 }
 
 
