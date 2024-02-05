@@ -38,7 +38,7 @@
     width: 50%;
     right: 0;
     top: 0;
-    height: 100vh;
+    height: 50vh;
     flex-direction: column;
     background: var(--primaryBackgroundColor);
     border-left: 1px solid var(--borderColor);
@@ -48,7 +48,7 @@
   }
 
   nav ul {
-    height: 100vh;
+    height: 60vh;
     align-items: center;
     flex-direction: column;
     justify-content: center;

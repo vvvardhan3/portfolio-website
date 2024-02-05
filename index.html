@@ -6,22 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles/style.css" />
   <link rel="stylesheet" href="styles/responsive.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="./images/portfolios/favicon.png" type="image/x-icon">
   <title>Vishnu Vardhan - Software Engineer</title>
 </head>
 
 <body>
-  <!-- Header -->
+  
   <header>
     <div class="main-container">
       <div class="nav">
         <nav>
           <ul>
+            <!-- <nav class="navbar bg-body-tertiary">
+              <div class="container">
+                <a class="navbar-brand" href="#">
+                  <img src="./images/portfolios/home_button.png" alt="Home Button" width="60" height="50">
+                </a>
+              </div>
+            </nav> -->
             <li class="btn"><a href="/">Home</a></li>
             <li class="btn"><a href="#education">Education</a></li>
             <li class="btn"><a href="#portfolios">Projects</a></li>
             <li class="btn"><a href="#skills">Skills & Certifications</a></li>
-            <li class="btn"><a href="#contact">Contact</a></li>
+            <!-- <li class="btn"><a href="#contact">Contact</a></li> -->
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" href="#contact">
+                Contact
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#contact">Contact me directly</a></li>
+                <li><a class="dropdown-item" href="mailto:vankayalapativjobs@gmail.com" target="_blank">Gmail</a></li>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/vishnuvardhan-vankayalapati1/" target="_blank">Linkedin</a></li>
+                <li><a class="dropdown-item" href="https://github.com/vvvardhan3" target="_blank">Github</a></li>
+               
+              </ul>
+            </div>
           </ul>
           <ul>
         </nav>
@@ -142,8 +166,11 @@
               <div>Parcel</div>
             </div>
             <p>
-              Developed a high-performance React App integrating technologies like Redux and Tailwind, featuring a custom <Shimmer/> component and Swiggy's API, 
-              with a focus on optimizing load times through lazy loading and robust state management for swift UI updates, supported by Jest tests.
+              Developed a high-performance React App integrating technologies like Redux and Tailwind, featuring a
+              custom
+              <Shimmer /> component and Swiggy's API,
+              with a focus on optimizing load times through lazy loading and robust state management for swift UI
+              updates, supported by Jest tests.
             </p>
           </div>
         </div>
@@ -167,7 +194,7 @@
               <div>PowerBI</div>
             </div>
             <p>
-              Designed a Power BI dashboard for multidimensional revenue analysis from hotel bookings and other metrics, 
+              Designed a Power BI dashboard for multidimensional revenue analysis from hotel bookings and other metrics,
               enabling data-driven decision-making for revenue enhancement.
             </p>
           </div>
@@ -179,130 +206,136 @@
 
   <!-- Skills -->
   <section id="skills">
-      <h3 class="pre-title">My Skills</h3>
-      <div class="skills-container">
-        <div class="skill" title="Java">
-          <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java">
-        </div>
-        
-        <div class="skill" title="Python">
-          <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python">
-        </div>
-
-        <div class="skill" title="Javascript">
-          <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="Javascript">
-        </div>
-
-        <div class="skill" title="ReactJs">
-          <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="ReactJs">
-        </div>
-
-        <div class="skill" title="HTML5">
-          <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="HTML5">
-        </div>
-
-        <div class="skill" title="CSS3">
-          <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg" alt="CSS3">
-        </div>
-
-        <div class="skill" title="Tailwind CSS">
-          <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS">
-        </div>
-
-        <div class="skill" title="Bootstrap">
-          <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg" alt="Bootstrap">
-        </div>
-
-        <div class="skill" title="Git">
-          <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git">
-        </div>
-
-        <div class="skill" title="github">
-          <img src="./images/portfolios/github-mark.png" alt="github">
-        </div>
-
-        <div class="skill" title="PostgreSQL">
-          <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="PostgreSQL">
-        </div>
-
-        <div class="skill" title="MySQL">
-          <img src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" alt="MySQL">
-        </div> <br>
-
-        <div class="skill" title="Visual Studio Code">
-          <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="Visual Studio Code">
-        </div>
-
-        <div class="skill" title="nodejs">
-          <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="nodejs">
-        </div>
-
-        <div class="skill" title="AWS">
-          <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" alt="AWS">
-        </div> 
-
-        <div class="skill" title="Docker">
-          <img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg" alt="Docker">
-        </div> 
-        
+    <h3 class="pre-title">My Skills</h3>
+    <div class="skills-container">
+      <div class="skill" title="Java">
+        <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java">
       </div>
-      <section>
-        <div>
-          <h3 class="pre-title">Certifications</h3>
-          <div class="skills-container">
-            <a href="https://www.udemy.com/certificate/UC-baccebce-3933-41cf-96ac-80787da70834/" target="_blank">
-              <div class="skill" title="Data Analysis">
-                <img src="./images/portfolios/monitor.png" alt="Data Analysis">
-              </div> 
-            </a>
-            
-            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Tata/MyXvBcppsW2FkNYCX_Tata_NjcLmWTEvEAqu4Ao5_1681928434932_completion_certificate.pdf" target="_blank">
-              <div class="skill" title="Data Visualisation">
-                <img src="./images/portfolios/wave-chart.png" alt="Data Visualisation">
-              </div> 
-            </a>
-            
-            <a href="https://training.digitalvidya.com/certificate/sports-analytics-vishnu-vardhan-vankayalapati/" target="_blank">
-              <div class="skill" title="Sports Analytics">
-                <img src="./images/portfolios/rajasthan royals.png" alt="Sports Analytics">
-              </div>
-            </a>
-           
-            <a href="https://courses.namastedev.com/learn/certificate/8937729-142240" target="_blank">
-              <div class="skill" title="ReactJs">
-                <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="ReactJs">
-              </div> 
-            </a>
-          </div>
-          
 
-      </section>
+      <div class="skill" title="Python">
+        <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python">
       </div>
+
+      <div class="skill" title="Javascript">
+        <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="Javascript">
+      </div>
+
+      <div class="skill" title="ReactJs">
+        <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="ReactJs">
+      </div>
+
+      <div class="skill" title="HTML5">
+        <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="HTML5">
+      </div>
+
+      <div class="skill" title="CSS3">
+        <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg" alt="CSS3">
+      </div>
+
+      <div class="skill" title="Tailwind CSS">
+        <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS">
+      </div>
+
+      <div class="skill" title="Bootstrap">
+        <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg" alt="Bootstrap">
+      </div>
+
+      <div class="skill" title="Git">
+        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git">
+      </div>
+
+      <div class="skill" title="github">
+        <img src="./images/portfolios/github-mark.png" alt="github">
+      </div>
+
+      <div class="skill" title="PostgreSQL">
+        <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="PostgreSQL">
+      </div>
+
+      <div class="skill" title="MySQL">
+        <img src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" alt="MySQL">
+      </div> <br>
+
+      <div class="skill" title="Visual Studio Code">
+        <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg"
+          alt="Visual Studio Code">
+      </div>
+
+      <div class="skill" title="nodejs">
+        <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="nodejs">
+      </div>
+
+      <div class="skill" title="AWS">
+        <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" alt="AWS">
+      </div>
+
+      <div class="skill" title="Docker">
+        <img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg" alt="Docker">
+      </div>
+
+    </div>
+    <section>
+      <div>
+        <h3 class="pre-title">Certifications</h3>
+        <div class="skills-container">
+          <a href="https://www.udemy.com/certificate/UC-baccebce-3933-41cf-96ac-80787da70834/" target="_blank">
+            <div class="skill" title="Data Analysis">
+              <img src="./images/portfolios/monitor.png" alt="Data Analysis">
+            </div>
+          </a>
+
+          <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Tata/MyXvBcppsW2FkNYCX_Tata_NjcLmWTEvEAqu4Ao5_1681928434932_completion_certificate.pdf"
+            target="_blank">
+            <div class="skill" title="Data Visualisation">
+              <img src="./images/portfolios/wave-chart.png" alt="Data Visualisation">
+            </div>
+          </a>
+
+          <a href="https://training.digitalvidya.com/certificate/sports-analytics-vishnu-vardhan-vankayalapati/"
+            target="_blank">
+            <div class="skill" title="Sports Analytics">
+              <img src="./images/portfolios/rajasthan royals.png" alt="Sports Analytics">
+            </div>
+          </a>
+
+          <a href="https://courses.namastedev.com/learn/certificate/8937729-142240" target="_blank">
+            <div class="skill" title="ReactJs">
+              <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="ReactJs">
+            </div>
+          </a>
+        </div>
+
+
+    </section>
+    </div>
   </section>
   <!-- End Skills -->
 
   <!-- Contact -->
   <section id="contact">
-    <h3 class="pre-title"><span>get in touch,</span>  Contact Me</h3>
-        <div class="contact-left">
-          <form action="https://formspree.io/f/mgegobea" method="POST" class="contact-form">
-            <div>
-              <input type="text" placeholder="Name" name="name" />
-            </div>
-            <div>
-              <input type="email" placeholder="Email" name="email" />
-            </div>
-            <div>
-              <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-            </div>
-            <div>
-              <button class="btn-submit">Send Message</button>
-            </div>
-          </form>
+    <h3 class="pre-title"><span>get in touch,</span> Contact Me</h3>
+    <div class="contact-left">
+      <form action="https://formspree.io/f/mgegobea" method="POST" class="contact-form">
+        <div>
+          <label for="formGroupExampleInput" class="form-label">Name:</label>
+          <input type="text" name="name" />
         </div>
-   
+        <div>
+          <label for="formGroupExampleInput" class="form-label">Email:</label>
+          <input type="email" name="email" />
+        </div>
+        <div>
+          <label for="formGroupExampleInput" class="form-label">Message:</label>
+          <textarea name="message" id="message" cols="30" rows="10" ></textarea>
+        </div>
+        <div>
+          <button class="btn-submit">Send Message</button>
+        </div>
+      </form>
+    </div>
 
-      <!-- <div class="contact-right">
+
+    <!-- <div class="contact-right">
         <div class="contact-item">
           
           <div class="contact-item-icon">
@@ -329,7 +362,7 @@
             <p>+1 919-638-8879</p>
           </div>
         </div> -->
-<!-- 
+    <!-- 
         <div class="contact-item">
           <div class="contact-item-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
@@ -380,15 +413,22 @@
 
       <a href="mailto:vankayalapativjobs@gmail.com">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-          <path d="M20,4H4C2.897,4,2,4.897,2,6v12c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V6C22,4.897,21.103,4,20,4z M20,18H4V8l8,5l8-5 V18z M4,6h16l-8,5L4,6z"></path>
+          <path
+            d="M20,4H4C2.897,4,2,4.897,2,6v12c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V6C22,4.897,21.103,4,20,4z M20,18H4V8l8,5l8-5 V18z M4,6h16l-8,5L4,6z">
+          </path>
         </svg>
       </a>
-      
+
 
       <a href="https://leetcode.com/vardhanv1999/">
-        <svg xmlns="http://www.w3.org/2000/svg"  width="20" height="20" viewBox="0 0 24 24" >
-          <path d="M22,14.355c0-0.742-0.564-1.346-1.26-1.346H10.676c-0.696,0-1.26,0.604-1.26,1.346s0.563,1.346,1.26,1.346H20.74C21.436,15.702,22,15.098,22,14.355z"></path>
-          <path d="M3.482,18.187l4.313,4.361C8.768,23.527,10.113,24,11.598,24c1.485,0,2.83-0.512,3.805-1.494l2.588-2.637c0.51-0.514,0.492-1.365-0.039-1.9c-0.531-0.535-1.375-0.553-1.884-0.039l-2.676,2.607c-0.462,0.467-1.102,0.662-1.809,0.662s-1.346-0.195-1.81-0.662l-4.298-4.363c-0.463-0.467-0.696-1.15-0.696-1.863c0-0.713,0.233-1.357,0.696-1.824l4.285-4.38c0.463-0.467,1.116-0.645,1.822-0.645s1.346,0.195,1.809,0.662l2.676,2.606c0.51,0.515,1.354,0.497,1.885-0.038c0.531-0.536,0.549-1.387,0.039-1.901l-2.588-2.636c-0.649-0.646-1.471-1.116-2.392-1.33l-0.034-0.007l2.447-2.503c0.512-0.514,0.494-1.366-0.037-1.901c-0.531-0.535-1.376-0.552-1.887-0.038L3.482,10.476C2.509,11.458,2,12.813,2,14.311C2,15.809,2.509,17.207,3.482,18.187z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+          <path
+            d="M22,14.355c0-0.742-0.564-1.346-1.26-1.346H10.676c-0.696,0-1.26,0.604-1.26,1.346s0.563,1.346,1.26,1.346H20.74C21.436,15.702,22,15.098,22,14.355z">
+          </path>
+          <path
+            d="M3.482,18.187l4.313,4.361C8.768,23.527,10.113,24,11.598,24c1.485,0,2.83-0.512,3.805-1.494l2.588-2.637c0.51-0.514,0.492-1.365-0.039-1.9c-0.531-0.535-1.375-0.553-1.884-0.039l-2.676,2.607c-0.462,0.467-1.102,0.662-1.809,0.662s-1.346-0.195-1.81-0.662l-4.298-4.363c-0.463-0.467-0.696-1.15-0.696-1.863c0-0.713,0.233-1.357,0.696-1.824l4.285-4.38c0.463-0.467,1.116-0.645,1.822-0.645s1.346,0.195,1.809,0.662l2.676,2.606c0.51,0.515,1.354,0.497,1.885-0.038c0.531-0.536,0.549-1.387,0.039-1.901l-2.588-2.636c-0.649-0.646-1.471-1.116-2.392-1.33l-0.034-0.007l2.447-2.503c0.512-0.514,0.494-1.366-0.037-1.901c-0.531-0.535-1.376-0.552-1.887-0.038L3.482,10.476C2.509,11.458,2,12.813,2,14.311C2,15.809,2.509,17.207,3.482,18.187z">
+          </path>
+        </svg>
       </a>
       </a>
     </div>
@@ -400,6 +440,3 @@
 </body>
 
 </html>
-
-
-
