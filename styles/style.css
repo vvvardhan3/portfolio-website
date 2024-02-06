@@ -601,14 +601,10 @@ footer {
   margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
-  .certification {
-    width: 100%; 
-  }
-}
+
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991px) {
+@media (max-width: 1367px) {
   .main-container {
     width: 90%; /* Allow some space on the sides */
   }
@@ -633,16 +629,18 @@ footer {
   }
 
   .hero-right img {
-    width: 80%; /* Adjust image width */
+    width: auto; /* Adjust image width */
   }
 
   .grid-3 {
     grid-template-columns: 1fr; /* Adjust grid to single column layout */
   }
 }
-
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767px) {
+  .hero-right img {
+  width: auto; /* Adjust image width */
+  }
   .hero-name {
     font-size: 2.5rem; /* Further adjust hero name font size */
   }
@@ -696,6 +694,9 @@ footer {
     padding: 1rem; /* Adjust padding for education, portfolio, and skill items */
   }
 
+  .hero-right img {
+    width: auto; /* Adjust image width */
+  }
 
 }
 
