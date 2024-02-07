@@ -639,10 +639,11 @@ footer {
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 980px) {
   .hero-right img {
-  width: auto; /* Adjust image width */
+    height: auto;
+    width: auto; /* Adjust image width */
   }
   .hero-name {
-    font-size: 2.5rem; /* Further adjust hero name font size */
+    font-size: 5.5rem; /* Further adjust hero name font size */
   }
 
   .section-title, .pre-title {
