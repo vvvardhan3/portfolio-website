@@ -696,8 +696,10 @@ footer {
     padding: 1rem; /* Adjust padding for education, portfolio, and skill items */
   }
 
-  .hero-right img {
-    width: auto; 
+.hero-right img {
+    height: 204px;
+    width: 370px !important;
+ 
   }
 
 }
